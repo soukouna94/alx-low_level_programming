@@ -9,7 +9,7 @@ int main(void)
 {
         char stringToPrint[] = "with proper grammar, but the outcome is a piece of art,";
 
-        printf("%s \n", stringToPrint);
+        printf("%s\n", stringToPrint);
 
         return (0);
 }
