@@ -4,3 +4,4 @@
 3. Name : this script compiles a C file and creates an executable named cisfun.
 4. Hello, puts : this script prints exactly "Programming is like building a multilingual puzzle.
 5. Hello, printf : this script prints exactly with proper grammar, but the outcome is a piece of art,, followed by a new line.
+6. Size is not grandeur, and territory does not make a nation : this script prints the size of various types on the computer it is compiled and run on.
