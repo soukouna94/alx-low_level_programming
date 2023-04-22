@@ -13,7 +13,7 @@ int main(void)
 		for (j = i + 1; j <= 8; j++)
 		{
 			for (k = j + 1; k <= 9; k++)
-			{	
+			{
 				putchar(48 + i);
 				putchar(48 + j);
 				putchar(48 + k);
