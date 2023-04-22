@@ -19,11 +19,11 @@ int main(void)
 	}
 	else if (remainder == 0)
 	{
-		printf("Last digit of %d is %d \n  and is 0");
+		printf("Last digit of %d is %d \n  and is 0", n, remainder);
 	}
 	else
 	{
-		printf("Last digit of %d is %d \n and is less than 6 and not 0");
+		printf("Last digit of %d is %d \n and is less than 6 and not 0", n, remainder);
 	}	
 	return (0);
 }
