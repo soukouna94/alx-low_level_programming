@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - When I was having that alphabet soup, I never thought that it would pay off.
+ * main - When I was having that alphabet soup...
  *
  * Return: Always 0 (Success)
  */
