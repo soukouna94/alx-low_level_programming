@@ -14,22 +14,32 @@ int main(void)
 		{
 			if (j != 9 || i != 9)
 			{
-				for (k = 0; k <= 9; k++)
+				if (j == 9)
 				{
-					l = 0;
-					while (10 * k + l > 10 *i + j)
+					putchar(48 + i);
+					putchar(48 + j);
+					putchar(' ');
+					putchar(48 + i + 1);
+					putchar(48);
+					putchar(',');
+				}
+				else
+				{
+					for (k = i; k <= 9; k++)
 					{
-						putchar(48 + i);
-						putchar(48 + j);
-						putchar(' ');
-						putchar(48 + k);
-						putchar(48 + l);
+						for (l = j + 1; l <= 9; l++)
+						{
+							putchar(48 + i);
+							putchar(48 + j);
+							putchar(' ');
+							putchar(48 + k);
+							putchar(48 + l);
+							if (10 * i + j < 98)
+							{
+								putchar(',');
+							}
+						}
 					}
-					if (10 * i + j < 98)
-					{
-						putchar(',');
-						putchar(' ');
-					}	
 				}
 			}
 		}
