@@ -14,20 +14,11 @@ int main(void)
 		{
 			if (j != 9 || i != 9)
 			{
-				if (j == 9)
+				for (k = 0; k <= 9; k++)
 				{
-					putchar(48 + i);
-					putchar(48 + j);
-					putchar(' ');
-					putchar(48 + i + 1);
-					putchar(48);
-					putchar(',');
-				}
-				else
-				{
-					for (k = i; k <= 9; k++)
+					for (l = 0; l <= 9; l++)
 					{
-						for (l = j + 1; l <= 9; l++)
+						if (10 * k + l > 10 * i + j)
 						{
 							putchar(48 + i);
 							putchar(48 + j);
@@ -37,6 +28,7 @@ int main(void)
 							if (10 * i + j < 98)
 							{
 								putchar(',');
+								putchar(' ');
 							}
 						}
 					}
