@@ -12,11 +12,11 @@ int main(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-			if ( j != 9 || i != 9)
+			if (j != 9 || i != 9)
 			{
 				for (k = 0; k <= 9; k++)
 				{
-					for (l = k; l <= 9; l++)
+					for (l = 0; l <= 9; l++)
 					{
 						if (10 * k + l > 10 * i + j)
 						{
