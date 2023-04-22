@@ -4,3 +4,4 @@
 3. Alphabet : Write a program that prints the alphabet in lowercase, and then in uppercase, followed by a new line.
 4. When I was having that alphabet soup, I never thought that it would pay off : Write a program that prints the alphabet in lowercase, followed by a new line.
 5. Numbers : Write a program that prints all single digit numbers of base 10 starting from 0.
+6. Numberz : Write a program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
