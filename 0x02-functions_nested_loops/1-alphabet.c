@@ -1,11 +1,9 @@
 #include "main.h"
-
 /**
  * main - Print Alphabet
  *
  * Return: Always 0 (Success) 
  */
-
 void print_alphabet(void)
 {
 	char e = 'a';
@@ -16,5 +14,4 @@ void print_alphabet(void)
 		e++;
 	}
 	_putchar('\n');
-
 }
