@@ -1,10 +1,8 @@
 #include "main.h"
 /**
- * main - Entry Point
+ * print_alphabet - Entry Point
  *
  * Description: Print Alphabet
- * @parameter: describe parameter
- *
  * Return: Always 0 (Success)
  */
 void print_alphabet(void)
