@@ -9,15 +9,15 @@
 int print_last_digit(int n)
 {
 	int d;
-	
+
 	if (n < 0)
 	{
-		n = -n ;
+		n = -n;
 	}
-	
+
 	d = n % 10;
 
-	_putchar( 48 + d); 
+	_putchar(48 + d);
 
 	return (d);
 }
