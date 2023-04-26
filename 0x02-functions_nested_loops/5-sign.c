@@ -4,8 +4,8 @@
  *@n: the number which its sign will be checked
  * Description: Print the sign of a number
  * Return: 1 (If the number is positive)
- * Return: 0 (If the number is zero)
- * Return: -1 (If the number is negative or if it fails)
+ *0 (If the number is zero)
+ *-1 (If the number is negative or if it fails)
  */
 int print_sign(int n)
 {
