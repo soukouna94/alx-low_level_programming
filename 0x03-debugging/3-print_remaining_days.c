@@ -7,6 +7,7 @@
 * @month: month in number format
 * @day: day of month
 * @year: year
+* Description: Print remaining days
 * Return: void
 */
 
