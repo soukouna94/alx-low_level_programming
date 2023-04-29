@@ -5,7 +5,7 @@
  * @a: first integer
  * @b: second integer
  * Description: Multiply two integers
- * Return: product of a and b 
+ * Return: product of a and b
  */
 int mul(int a, int b)
 {
