@@ -7,7 +7,6 @@
  * Description: Multiply two integers
  * Return: product of a and b 
  */
-
 int mul(int a, int b)
 {
 	int product;
