@@ -4,3 +4,4 @@
 3. I do not fear computers. I fear the lack of them : Function that prints a string
 4. I can only go one way. I've not got a reverse gear : Function that prints a string in reverse
 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes : Function which reverses a string
+6. Half the lies they tell about me aren't true : Function which prints every other character of a string, starting from the first one
