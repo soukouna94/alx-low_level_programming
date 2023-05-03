@@ -7,3 +7,4 @@
 6. Half the lies they tell about me aren't true : Function which prints every other character of a string, starting from the first one
 7. Winning is only half of it. Having fun is the other half : Function which prints half of a string
 8. Arrays are not pointers : Prints elements of an array of integers
+9. strcpy : This function copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
