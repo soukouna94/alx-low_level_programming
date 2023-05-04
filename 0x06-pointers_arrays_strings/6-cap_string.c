@@ -4,14 +4,15 @@
  * cap_string - capitalize all words of a string
  * @s: string where each will word will be capitalize
  * Description: Capitalize all words of a string
- * Return: Return pointer of the capitalize string
+ * Return: pointer of the capitalize string
  */
 char *cap_string(char *s)
 {
 	int i, j;
-
 	char delimiters[13] = {'\n', '\t', '.', ';', ' ', ',',
 		'!', '?', '"', '(', ')', '{', '}'};
+	i = 0;
+	j = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
 	{
