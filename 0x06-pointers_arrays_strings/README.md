@@ -3,3 +3,4 @@
 2. strncpy : Function which copies a string
 3. strcmp : Function which compares two strings
 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy : Function reverses the content of an array of integers
+5. Always look up : Function which changes all lowercases of a string into uppercase
