@@ -4,3 +4,4 @@
 3. strspn : This function gets the lenght of a prefix substring
 4. strpbrk : This function searches a string for any set of bytes
 5. strstr : This function locates a substring
+6. Chess is mental torture : This function prints a chessboard
