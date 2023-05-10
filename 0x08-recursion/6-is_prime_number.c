@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * is_n_multiple_p - Checks if n is a multiple of p
+ * is_multiple_number - Checks if n is a multiple of p
  * @n: integer
  * @p: integer
- * Description : Checks if n is a multiple of p
- * Returns : 0 if n is a multiple of p, 1 otherwise
+ * Description: Checks if n is a multiple of p
+ * Return: 0 if n is a multiple of p, 1 otherwise
  */
 int is_multiple_number(int p, int n)
 {
