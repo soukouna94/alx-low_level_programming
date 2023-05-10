@@ -4,3 +4,4 @@
 3. You mustn't be afraid to dream a little bigger, darling : This function returns the factorial of a number
 4. Once an idea has taken hold of the brain it's almost impossible to eradicate : This function raises the value of x power y 
 5. Your subconscious is looking for the dreamer : This function returns the natural square root of a number
+6. Inception. Is it possible? : This function returns 1 if the number is a prime, 0 otherwise
