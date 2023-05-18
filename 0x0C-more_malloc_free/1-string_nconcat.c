@@ -16,14 +16,12 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 
 	i = 0;
 	sizeFirstStr = 0;
-
 	for (i = 0; s1[i] != '\0'; i++)
 	{
 		sizeFirstStr++;
 	}
 	i = 0;
 	sizeSecondStr = 0;
-
 	for (i = 0; s2[i] != '\0'; i++)
 	{
 		sizeSecondStr++;
