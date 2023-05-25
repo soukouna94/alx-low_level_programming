@@ -19,26 +19,25 @@ void print_all(const char * const format, ...)
 	while (format != NULL && format[iter] != '\0')
 	{
 		isValidFormat = 1;
-		if (format[iter] == 'c')
+		switch (format[iter])
 		{
-			printf("%c", va_arg(varArgList, int));
-		}
-		else if (format[iter] == 'i')
-		{
-			printf("%d", va_arg(varArgList, int));
-		}
-		else if (format[iter] == 's')
-		{
-			currStr = va_arg(varArgList, char*);
-			if (currStr == NULL)
-			{
-				currStr = "(nil)";
-			}
-			printf("%s", currStr);
-		}
-		else
-		{
-			isValidFormat = 0;
+			case 'c':
+				printf("%c", va_arg(varArgList, int));
+				break;
+			case 'i':
+				printf("%d", va_arg(varArgList, int));
+				break;
+			case 's':
+				currStr = va_arg(varArgList, char*);
+				if (currStr == NULL)
+				{
+					currStr = "(nil)";
+				}
+				printf("%s", currStr);
+				break;
+			default:
+				isValidFormat = 0;
+				break;
 		}
 		if (format[iter + 1] != '\0' && (isValidFormat == 1))
 		{
